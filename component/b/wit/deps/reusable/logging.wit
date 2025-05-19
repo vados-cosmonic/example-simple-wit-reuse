@@ -1,0 +1,13 @@
+package reusable:logging.wit;
+
+interface sink {
+  debug: func(msg: string);
+  info: func(msg: string);
+  warn: func(msg: string);
+  error: func(msg: string);
+}
+
+/// components can chose to `include` this world, which means taking all of it's imports and exports
+world logger {
+  import sink
+}

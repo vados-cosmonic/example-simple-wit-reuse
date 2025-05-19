@@ -1,0 +1,9 @@
+package components:b;
+
+world component {
+   /// By using 'include' this component completely replicates the world exported from reusable:logging, as specified
+   include reusable:logging/logging;
+
+   /// (optional) Add on a way to run the component, theoretically
+   export wasi:cli/run@0.2.4;
+} 

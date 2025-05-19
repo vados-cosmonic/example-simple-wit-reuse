@@ -1,0 +1,7 @@
+package components:a;
+
+world component {
+    import reusable:logging;
+
+    export wasi:cli/run;
+}

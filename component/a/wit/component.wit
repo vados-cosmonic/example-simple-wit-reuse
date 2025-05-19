@@ -1,0 +1,10 @@
+package components:a;
+
+world component {
+    /// here we're just reusing the interface available from the shared WIT, *not*
+    /// fully replicating the world. We can pick & choose, but obviously this is identical to the logger world.
+    import reusable:logging/sink;
+
+    /// (optional) Add on a way to run the component, theoretically
+    export wasi:cli/run@0.2.4;
+}
