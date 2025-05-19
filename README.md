@@ -16,7 +16,7 @@ From there, maintaining this setup is a matter of copying the "shared" WIT packa
 to `project/wit/deps/reusable/`, repeatedly after updates.
 
 [wit]: https://github.com/WebAssembly/component-model/blob/main/design/mvp/WIT.md
-[host-components]: https://docs.rs/wasmtime/latest/wasmtime/component/index.html
+[host-components]: https://docs.wasmtime.dev/api/wasmtime/component/bindgen_examples/_4_imported_resources/index.html
 
 ## The "correct" way (using `wkg`)
 
