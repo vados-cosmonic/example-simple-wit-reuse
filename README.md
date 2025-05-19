@@ -8,7 +8,7 @@ This repository aims to contain the simplest possible example of [WIT][wit] reus
 The basic idea is to:
 
 1. Create a "shared" WIT package (text files, in a folder, e.g. `somewhere/wit/resuable/stuff.wit`)
-2. Copy them to the `wit/deps` of relevant projects
+2. Copy the files for that shared WIT package to the `wit/deps` of relevant projects
 3. Create the WIT files that correspond to the relevant project *outside* of `wit/deps` (e.g. `project/wit/component.wit`)
 4. Write relevant `world`s in the project-specific WIT file (e.g. `project/wit/component.wit`)
 
